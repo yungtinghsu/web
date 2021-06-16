@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*index*/
+#indexfirst img{
+	width:910px;
+}
+#indexsecond h1{
+	/* 文字置中 */
+	text-align:center;
+	padding-top:70px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size:80px;
+	color:#01814A;
+}
+#indexsecond p{
+	/* 文字置中 */
+	text-align:center;
+	/*字體大小*/
+	font-size:25px;
+	font-family:'Trebuchet MS', sans-serif;
+	padding-top:50px;
+}
+#indexthird img{
+	width:900px;
+}
+
+/*intro*/
+#introfirst img{
+	width:710px;
+}
+#introsecond h1{
+	/* 文字置中 */
+	text-align:center;
+	padding-top:100px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size:60px;
+	color:#01814A;
+}
+#introsecond h3{
+	font-family: "Courier New", Courier, monospace;
+}
+#introsecond p{
+	font-size:20px;
+	color:#007979;
+	font-family: "Courier New", Courier, monospace;
+}
+#introsecond h5{
+	font-size:20px;
+	color:#007979;
+	font-family: "Courier New", Courier, monospace;
+}
+#introthird img{
+	width:600px;
+	text-align:center;
+	padding-top:100px;
+}
+
+/*account*/
+#accountsecond h1{
+	/* 文字置中 */
+	text-align:center;
+	padding-top:100px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size:60px;
+	color:#01814A;
+}
+#accountsecond p{
+	font-size:30px;
+}
+/*圖片設定最大寬度100%*/
+img{
+    max-width: 100%;
+}
+
+/* 設定只有在小畫面的時候才會出現的效果 */
+@media screen and (max-width :768px){
+	#indexfirst img{
+		margin-bottom:20px;
+    }
+	#introfirst img{
+		margin-left:20px;
+	}
+	#accountfirst img{
+		margin-left:20px;
+	}
